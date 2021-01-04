@@ -26,3 +26,11 @@ p{
 img{
     padding-top: 40px;
 }
+.top-banner {
+    background-image: url("images/top-banner.png");
+    
+}
+section{
+    height: 500px;
+    background-repeat: no-repeat;
+}
