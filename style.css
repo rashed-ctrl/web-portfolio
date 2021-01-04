@@ -1,4 +1,59 @@
+body{
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
 
+}
+/* top section start */
+h1 {
+    font-size: 50px;
+    font-family: 'Pirata One', cursive;
+}
+.name-highlight {
+    color: orange;
+}
+h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+}
+p{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    text-align: justify;
+    font-size: 25px;
+
+}
+.half-width {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}.half-width img{
+    width: 100%;
+}
+img{
+    padding-top: 40px;
+}
+.top-banner {
+    background-image: url("images/top-banner.png");
+    padding-bottom: 50px;
+    
+}
+section{
+    height: 500px;
+    background-repeat: no-repeat;
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(45deg,  lightsalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+/* top section end */
+
+/* second section start */
 h1 {
     font-size: 50px;
     font-family: 'Pirata One', cursive;
@@ -26,11 +81,23 @@ p{
 img{
     padding-top: 40px;
 }
-.top-banner {
-    background-image: url("images/top-banner.png");
-    
-}
+
 section{
     height: 500px;
     background-repeat: no-repeat;
 }
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(45deg,  lightsalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.second-banner {
+    background-image: url("images/dream-bg.png"); 
+    background-position: right;
+    padding: 40px;
+}
+/* second section end */
