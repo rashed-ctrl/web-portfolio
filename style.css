@@ -55,7 +55,7 @@ section{
 
 /* second section start */
 h1 {
-    font-size: 50px;
+    font-size: 60px;
     font-family: 'Pirata One', cursive;
 }
 .name-highlight {
@@ -75,7 +75,8 @@ p{
     float: left;
     margin-left: 5%;
     padding-left: 2%;
-}.half-width img{
+}
+.half-width img{
     width: 100%;
 }
 img{
@@ -98,6 +99,33 @@ section{
 .second-banner {
     background-image: url("images/dream-bg.png"); 
     background-position: right;
-    padding: 40px;
+    /* padding-bottom: 80px; */
+
 }
 /* second section end */
+
+/* Third section start */
+.single-experience {
+    box-shadow: 10px 10px 40px  gray;
+    height: 80%;
+    padding-right: 40px;
+}
+.experience {
+    text-align: left;
+}
+.third-banner{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#noob-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+/* Third section end */
