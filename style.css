@@ -1,4 +1,27 @@
+
 h1 {
     font-size: 50px;
     font-family: 'Pirata One', cursive;
+}
+.name-highlight {
+    color: orange;
+}
+h3{
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+
+}
+.half-width {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}.half-width img{
+    width: 100%;
+}
+img{
+    padding-top: 40px;
 }
